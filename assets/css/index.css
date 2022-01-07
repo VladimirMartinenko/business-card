@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.card1,
+.card2,
+.card3 {
+  position: relative;
+  display: inline-block;
+  width: 27%;
+  height: 200px;
+  border-radius: 10px;
+  margin-top: 30vh;
+}
+.card1-1 {
+  background: linear-gradient(
+    350deg,
+    rgba(255, 141, 151, 1) 0%,
+    rgba(255, 186, 151, 1) 79%,
+    rgba(254, 146, 170, 0.969625350140056) 100%
+  );
+  margin-left: 50px;
+}
+.card2-1 {
+  background: linear-gradient(
+    132deg,
+    rgba(120, 191, 243, 1) 0%,
+    rgba(33, 141, 219, 1) 51%,
+    rgba(22, 143, 224, 1) 100%
+  );
+  margin-left: 60px;
+}
+.card3-1 {
+  background: linear-gradient(
+    71deg,
+    rgba(116, 216, 208, 1) 0%,
+    rgba(60, 212, 195, 1) 31%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  margin-left: 60px;
+}
+.topText {
+  font-size: 18px;
+  padding: 45px 0px 15px 30px;
+  position: relative;
+}
+.number {
+  font-size: 35px;
+  padding: 0px 30px;
+}
+.bottonText {
+  font-size: 14px;
+  padding: 35px 0px 20px 30px;
+}
+.style {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.img1::after {
+  content: url("../img/chart-line.svg");
+  position: absolute;
+  left: 300px;
+}
+.img2::after {
+  content: url("../img/bookmark.svg");
+  position: absolute;
+  left: 300px;
+}
+.img3::after {
+  content: url("../img/diamond.svg");
+  position: absolute;
+  left: 300px;
+}
+.circle1 {
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+  top: -10px;
+  left: 270px;
+}
+.circle2 {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+  top: 90px;
+  left: 220px;
+}
+.style-circle {
+  background-color: white;
+  opacity: 0.2;
+  position: absolute;
+}
