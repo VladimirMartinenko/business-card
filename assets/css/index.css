@@ -2,43 +2,41 @@
   margin: 0;
   padding: 0;
 }
-.card1,
-.card2,
-.card3 {
+.card {
   position: relative;
   display: inline-block;
-  width: 27%;
+  width: 350px;
   height: 200px;
   border-radius: 10px;
   margin-top: 30vh;
+  overflow: hidden;
+  margin-left: 50px;
 }
-.card1-1 {
+.card1 {
   background: linear-gradient(
     350deg,
     rgba(255, 141, 151, 1) 0%,
     rgba(255, 186, 151, 1) 79%,
     rgba(254, 146, 170, 0.969625350140056) 100%
   );
-  margin-left: 50px;
+  
 }
-.card2-1 {
+.card2 {
   background: linear-gradient(
     132deg,
     rgba(120, 191, 243, 1) 0%,
     rgba(33, 141, 219, 1) 51%,
     rgba(22, 143, 224, 1) 100%
   );
-  margin-left: 60px;
-}
-.card3-1 {
+  }
+.card3 {
   background: linear-gradient(
     71deg,
     rgba(116, 216, 208, 1) 0%,
     rgba(60, 212, 195, 1) 31%,
     rgba(0, 0, 0, 1) 100%
   );
-  margin-left: 60px;
-}
+  }
 .topText {
   font-size: 18px;
   padding: 45px 0px 15px 30px;
